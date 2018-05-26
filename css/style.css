@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background: olivedrab;
+    background: rgb(180, 201, 221);
 }
 .todo-cnt {
     max-width:60rem;
@@ -21,4 +21,17 @@ body {
     display: block;
     font-size: 0.8rem;
     margin-bottom: 0.2rem;
+}
+.todo-form-button {
+    padding: 0.8rem 1.6rem;
+    background: #F15C5C;
+    color: #fff;
+    border: 0;
+    border-radius: 0.188rem;
+    transition: 4s all;
+}
+.todo-form-button:hover {
+    background-color: rgb(52, 20, 192); 
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
